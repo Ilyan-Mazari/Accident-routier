@@ -51,8 +51,18 @@ Le PDF inclus explique les variables de la base ONISR.
 
 4. Ouvrir `Data final project code.ipynb` et exécuter les cellules dans l’ordre. Garder les fichiers CSV dans le même dossier que le notebook.
 
-## Lire les résultats
+## Résultats et interprétation
 
 Dans cette analyse, une blessure grave correspond à une personne tuée ou hospitalisée. Les pourcentages portent sur les personnes impliquées dans les accidents recensés.
 
 L’analyse montre des liens entre les conditions de l’accident et la gravité des blessures. Elle ne suffit pas, à elle seule, à prouver qu’un facteur est la cause de ces blessures.
+
+### Quelques résultats de l’analyse
+
+- Brouillard ou fumée : **32,4 %** de personnes tuées ou hospitalisées sur **945 usagers**, contre **19,5 %** sur **103 511 usagers** par temps normal.
+- Piétons : **36,0 %** sur **10 960 usagers**.
+- Piétons dans le brouillard ou la fumée : **54,9 %**, mais seulement **51 personnes** dans ce groupe. Ce petit effectif appelle à la prudence.
+
+Les effectifs comptent des personnes impliquées dans les accidents recensés, y compris celles qui sont indemnes. Ces chiffres ne mesurent ni le nombre d’accidents par trajet ni un effet causal. Plusieurs usagers peuvent appartenir au même accident.
+
+Les tableaux et les graphiques du notebook affichent les effectifs pour accompagner les pourcentages. Les groupes de moins de 100 personnes sont signalés dans la comparaison météo/usagers ; ce repère ne constitue pas un test statistique. Exécuter toutes les cellules du notebook pour régénérer les sorties.
